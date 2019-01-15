@@ -7,3 +7,38 @@ https://stackoverflow.com/questions/42084188/kill-tomcat-service-running-on-any-
 # SSL
 
 https://stackoverflow.com/questions/2893819/accept-servers-self-signed-ssl-certificate-in-java-client
+
+
+
+    TrustManager[] trustAllCerts = new TrustManager[] {
+			new X509TrustManager() {
+				@Override
+				public X509Certificate[] getAcceptedIssuers() {
+					return null;
+				}
+				
+				@Override
+				public void checkClientTrusted(X509Certificate[] certs, String authType) {
+					// Trust always
+				}
+				
+				@Override
+				public void checkServerTrusted(X509Certificate[] certs, String authType) {
+					// Trust always
+				}
+			}
+		};
+
+		// Install the all-trusting trust manager
+		SSLContext sc = SSLContext.getInstance("SSL");
+		// Create empty HostnameVerifier
+		HostnameVerifier hv = new HostnameVerifier() {
+			@Override
+			public boolean verify(String arg0, SSLSession arg1) {
+				return true;
+			}
+		};
+
+		sc.init(null, trustAllCerts, new java.security.SecureRandom());
+		HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
+		HttpsURLConnection.setDefaultHostnameVerifier(hv);
