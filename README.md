@@ -3,6 +3,8 @@ stop tomcat server port
 
 https://stackoverflow.com/questions/42084188/kill-tomcat-service-running-on-any-port-windows
 
+https://github.com/leeponlp/spring-boot-oauth2/tree/master/src/main/java/com/qy/conf
+
 
 # SSL
 
