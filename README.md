@@ -5,6 +5,7 @@ https://stackoverflow.com/questions/42084188/kill-tomcat-service-running-on-any-
 
 https://github.com/leeponlp/spring-boot-oauth2/tree/master/src/main/java/com/qy/conf
 
+https://stackoverflow.com/questions/16851199/sending-an-e-mail-through-java-application-with-excel-file-attached-not-workin/16851851
 
 # SSL
 
