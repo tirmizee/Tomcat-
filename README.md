@@ -7,6 +7,8 @@ https://github.com/leeponlp/spring-boot-oauth2/tree/master/src/main/java/com/qy/
 
 https://stackoverflow.com/questions/16851199/sending-an-e-mail-through-java-application-with-excel-file-attached-not-workin/16851851
 
+https://medium.com/oril/spring-boot-websockets-angular-5-f2f4b1c14cee
+
 # SSL
 
 https://stackoverflow.com/questions/2893819/accept-servers-self-signed-ssl-certificate-in-java-client
