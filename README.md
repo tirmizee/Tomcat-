@@ -9,6 +9,8 @@ https://stackoverflow.com/questions/16851199/sending-an-e-mail-through-java-appl
 
 https://medium.com/oril/spring-boot-websockets-angular-5-f2f4b1c14cee
 
+https://medium.com/@JavaArchitect/configure-ssl-certificate-with-spring-boot-b707a6055f3
+
 # SSL
 
 https://stackoverflow.com/questions/2893819/accept-servers-self-signed-ssl-certificate-in-java-client
