@@ -15,6 +15,7 @@ https://medium.com/@JavaArchitect/configure-ssl-certificate-with-spring-boot-b70
 
 https://stackoverflow.com/questions/2893819/accept-servers-self-signed-ssl-certificate-in-java-client
 
+https://zoltanaltfatter.com/2016/04/30/soap-over-https-with-client-certificate-authentication/
 
 
     TrustManager[] trustAllCerts = new TrustManager[] {
