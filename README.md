@@ -20,6 +20,8 @@ https://zoltanaltfatter.com/2016/04/30/soap-over-https-with-client-certificate-a
 https://medium.com/@pakin/git-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-git-is-your-friend-c609c5f8efea
 
 
+https://ace.c9.io/#nav=embedding
+
     TrustManager[] trustAllCerts = new TrustManager[] {
 			new X509TrustManager() {
 				@Override
