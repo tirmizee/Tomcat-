@@ -17,6 +17,8 @@ https://stackoverflow.com/questions/2893819/accept-servers-self-signed-ssl-certi
 
 https://zoltanaltfatter.com/2016/04/30/soap-over-https-with-client-certificate-authentication/
 
+https://medium.com/@pakin/git-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-git-is-your-friend-c609c5f8efea
+
 
     TrustManager[] trustAllCerts = new TrustManager[] {
 			new X509TrustManager() {
